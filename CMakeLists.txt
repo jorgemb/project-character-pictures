@@ -3,4 +3,12 @@ project(Project_CharacterPictures)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CharacterPictures main.cpp)
+include_directories(
+        include/
+)
+
+add_executable(CharacterPictures
+        main.cpp
+        src/picture.cpp
+        include/picture/picture.hpp
+        )

@@ -2,7 +2,7 @@
 #include <picture/picture.hpp>
 
 int main() {
-    Picture pic{
+    Picture pic1{
             "This is a picture",
             "with multiple lines.",
     };
@@ -16,7 +16,7 @@ int main() {
             "on the right of the other image.",
     };
 
-    std::cout << hcat(frame(pic), frame(vcat(pic3, pic2)));
+    std::cout << frame(hcat(frame(pic1), vcat(frame(pic3), pic2)));
 
     return 0;
 }

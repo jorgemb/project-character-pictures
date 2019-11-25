@@ -1,5 +1,5 @@
 #include <iostream>
-#include <picture/picture.hpp>
+#include <picture/Picture.hpp>
 
 int main() {
     Picture pic1{

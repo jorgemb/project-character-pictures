@@ -9,8 +9,8 @@ include_directories(
 
 add_executable(CharacterPictures
         main.cpp
-        src/picture.cpp
-        src/pic_base.cpp
-        include/picture/picture.hpp
-        include/picture/pic_base.hpp
+        src/Picture.cpp
+        src/PictureBase.cpp
+        include/picture/Picture.hpp
+        include/picture/PictureBase.hpp
         )
